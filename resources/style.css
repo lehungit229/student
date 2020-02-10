@@ -1,0 +1,146 @@
+﻿body{
+    font-size: 14px;
+	background: #f3f3f4;
+}
+/*_____________ COMMON ________________*/
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.color-danger{
+	color: #ec4758
+}
+
+.text-right{
+	text-align: right;
+}
+.pull-right {
+    float: right!important;
+}
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*khối chung*/
+.block-common{}
+.block-common .head{
+    background: #fff;
+    border-top: 2px solid #e7eaec;
+    margin-bottom: 0;
+    padding: 15px 15px 12px;
+}
+.block-common .head .title{
+    font-weight: bold;
+    color: #676a6c;
+    font-size: 16px;
+}
+.block-common .body{
+	background: #fff;
+    border-top: 1px solid #e7eaec;
+    margin-bottom: 0;
+    padding: 15px 20px 20px 20px;
+}
+/*bảng chung*/
+.table-common{
+	width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+}
+.table-common tbody tr{
+	border-top: 1px solid #e7eaec;
+}
+.table-common tr:nth-child(even){
+	background: #f9f9f9;
+}
+.table-common tr:hover {
+	background: #ddd;
+}
+.table-common th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+  	padding: 8px;
+}
+.table-common td{
+  	padding: 8px;
+}
+/*form chung*/
+.form-common{
+	background: #FFF;
+    border: 1px solid #e5e6e7;
+    border-radius: 1px;
+    display: block;
+    padding: 6px 12px;
+    width: 100%;
+}
+.form-group{
+	margin-bottom: 10px;
+}
+.form-group .title{
+	font-weight: bold;
+	color: #676a6c;
+	display: inline-block;
+	width: 20%;
+}
+.form-group .form{
+	margin-bottom: 4px;
+	display: inline-block;
+	width: calc( 80% - 24px - 10px);
+}
+.form-group .error{
+	padding-left: 21%;
+}
+.form-group select{
+	width: auto;
+	padding: 5px 12px;
+}
+
+/*nút ấn*/
+.btn {
+	display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    height: 100%;
+}
+.btn-primary {
+    background-color: #1ab394;
+    border-color: #1ab394;
+    color: #FFFFFF;
+}
+.btn-danger {
+	background-color: #ec4758;
+    border-color: #ec4758;
+    color: #FFFFFF;
+}
+/*_____________ END COMMON ________________*/
+
+/*_____________ BLOCK LIST STUDENT ________________*/
+.list-student{
+	margin: auto;
+	width: 800px;
+	margin-top: 20px;
+}
+/*_____________ END BLOCK LIST STUDENT ________________*/
+
+/*_____________ BLOCK LIST STUDENT ________________*/
+.add-student{
+	margin: auto;
+	margin-top: 50px;
+	width: 600px;
+}
+/*_____________ END BLOCK LIST STUDENT ________________*/
+
