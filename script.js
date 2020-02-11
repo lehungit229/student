@@ -17,7 +17,7 @@ $(document).ready(function() {
 		// kiểm tra định dạng chứng minh thư
 		let cmt = $('.add-student input[name="cmt"]').val();
 		check_int('cmt', cmt) 
-		check_null('email', email)
+		check_null('cmt', cmt)
 
 		// kiểm tra định dạng số điện thoại
 		let phone = $('.add-student input[name="phone"]').val();
@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 });
 
-
+// __________________________ VALIDATE DỮ LIỆU _______________________________
 // kiểm tra định dang email
 function check_mail(input, val){
 	let re = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
@@ -87,3 +87,4 @@ function noti(input, boolean = true, text = ''){
 function clear_noti(input, boolean = true, text = ''){
 	$('.js_noti').remove('')
 }
+// __________________________ END VALIDATE DỮ LIỆU _______________________________
